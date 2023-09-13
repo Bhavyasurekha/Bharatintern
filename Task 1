@@ -1,0 +1,347 @@
+//Html code
+
+<html>
+    <head>
+        <title>My portfolio</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" contents="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="st.css">
+        <style>
+    .a{
+  margin-left:8%;
+  margin-top:10%;
+
+}
+.a h1:nth-child(1) {
+  color: #355c7d;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0 0 0 35%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 170px;
+  animation: type 2s steps(40,end) forwards;
+  margin-left:8%;
+  margin-top:10%;
+}
+
+.a h1:nth-child(2) {
+  opacity: 0;
+  font-family: "Work Sans", sans-serif;
+  margin: 0 auto auto auto;
+  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+  font-weight: 800;
+  font-size: 100px;  
+  width: 430px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+  margin-left:8%;
+}
+
+@keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  100% {
+    background-position: 400px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%, 99%{
+    border-right: 1px solid orange;
+  }
+  100%{
+    border-right: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+        </style>
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+              <img src="" alt="">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">skills</a></li>
+                    <li><a href="#proj">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="a">
+              <h1>Hi my name is</h1>
+              <h1>Bhavya<h1>
+                <p>This is my official portfolio</p><br>
+                <div class="down">
+                <a href="#">Download Resume</a>
+                </div>
+                <div class="images">
+                <img src="t1.jpg" alt="Avatar">
+                </div>
+          </div>
+        </div>
+        <section id="about" style="background-color:rgb(247, 232, 240);">
+          <div class="about">
+            <Marquee class="m1">About</Marquee><br>
+            <p class="a1">I am Bhavya currently pursuing my under Graduation . I am motivated and adaptable with a strong foundation in Problem solving I am aspiring in learning new things, I am good in coomunication skills and programming skills</b></p>
+          </div><br>
+            <P>I completed my 10th in SRI CHAITANYA TECHNO SCHOOL VISAKHAPATNAM with cgpa-10</P><br>
+            <p>I completed my Intermediate in SRI CHAITANYA JUNIOR COLLAGE VISAKHAPATNAM with 930 Marks</p><br>
+            <p>I am Pursuing my B.Tech in VITAP Computer Science Engineering Currently Pursuing my 3rd year first sem with cgpa-8.89</p><br>
+            <p>I am currently pursuing my Diploma in IIT madras with cgpa-8.2</p>
+            <div class="content">
+              <h1><u>EXPERIENCE</u></h1><br>
+              <li>Worked in CSI club,VITAP</li>
+              <li>worked in corbett house IITM</li>
+              <li>Worked in ELA club as the design tem member</li>
+              <li>worked in Telugu club as the core team member</li>
+            </div>
+            <div class="content">
+              <h1><u>WORKSHOP</u></h1><br>
+              <li>Attended a workshop on web development VITAP</li>
+              <li>Attended a workshop on communication skills in IITM</li>
+            </div>
+        </section>
+        
+        <section id="proj" style="background-color:rgba(236, 209, 223, 0.738);">
+          <div class="proj">
+            <Marquee class="m1">My Projects</Marquee><br>
+            <p class="s1">I demonstrated projects in my collage<br></p><br><br>
+            <div class="content">
+              <h1><u>A Website</u></h1><br>
+              <p>I demonstarted a E commerce website using html css javascript and php </p>
+            </div>
+            <div class="content">
+              <h1><u>ECS Project</u></h1><br>
+              <p>I demonstarted a project smart health monitoring system using aurdino</p>
+            </div>
+            <div class="content">
+              <h1><u>ECS Project 2</u></h1><br>
+              <p>I demonstarted a project in Solar dryer and stood in top 20 among 200 projects in collage </p>
+            </div>
+            <div class="content">
+              <h1><u>Certifications</u></h1><br>
+              <p>I got certificates in programming</p>
+              <li>Certified in IITM foundation</li>
+              <li>Certified in java Great learning</li>
+              <li>Certified in HTML/CSS(Courseera)</li>
+              <li>Certified in Python</li>
+            </div>
+          </div>
+        </section>
+        <section id="skill" style="background-color:rgb(152, 143, 148);">
+          <div class="skill">
+            <Marquee class="m1">My Skills</Marquee><br>
+            <p class="s1">I am good at communication skills.I am good at jAVA,HTML,CSS,PYTHON,R PROGRAMMING<br></p><br><br>
+            <div class="content1">
+              <h1><u>HTML CSS</u></h1><br>
+              <p>I learned html and css in my collage and I constructed a E commerce website using html,css,javascript and php . I am good in html css.I completed html css and I did all my assignments in my collage and I got a good grade in my collage and I did certification from great learning </p>
+            </div>
+            <div class="content1">
+              <h1><u>JAVA</u></h1><br>
+              <p>I learned java from my collage in my first year and I got good grade in my collage I did all the assignments in my collage I did many courses from great learning and coursera and I got many certificates in java
+                I am currently doing an internship on oracle java cloud  </p>
+            </div>
+            <div class="content1">
+              <h1><u>PYTHON</u></h1><br>
+              <p>I learned python from my collage in my first year and I got good grade in my collage,I did all the assignments in my collage I did many courses from great learning and coursera and I got many certificates in python
+                I completed my python course in IIT Madras and I got a good grade in python  </p>
+            </div>
+            <div class="content1">
+              <h1><u>R Programming</u></h1><br>
+              <p>I learned R from my collage in my first year and I got good grade in my collage,I did all the assignments in my collage I did many courses from great learning and coursera and I got many certificates in python
+                I completed a project in R programming  </p>
+            </div>
+            <div class="content1">
+              <h1><u>SOFT SKILLS</u></h1><br>
+                <li>Communication Skills</li>
+                <li>Public Speaking</li>
+                <li>Collaborative</li>
+                <li>Adaptability</li>
+                <li>Interactive</li>
+                <li>Team Working</li>
+                <li>Leadership qualities</li>
+            </div>
+          </div>
+          </section><br><br>
+          <section id="contact" style="background-color:rgb(247, 232, 240);">
+            <div class="about">
+              <Marquee class="m1">Contact</Marquee><br>
+              <p class="a1">My contact details</b></p>
+            </div><br>
+            <div class="content2">
+              <h1><u>Email</u></h1><br>
+              <p>bhavyasurekha24m@gmail.com</p>
+            </div>
+            <div class="content2">
+              <h1><u>linkedin</u></h1><br>
+              <p>https://www.linkedin.com/in/buddha-bhavya-surekha-054744272</p>
+            </div>
+            <div class="content2">
+              <h1><u>location</u></h1><br>
+              <p>VISAKHAPATNAM ,Andhra Pradesh</p>
+            </div>
+
+          </section style="background-color:rgb(247, 232, 240);">
+    </body>
+
+</html>
+
+// css code
+*{
+    margin :0;
+    padding :0;
+    font-family:sans-serif;
+}
+.hero{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background:#e5ecf9;
+}
+nav{
+    display:flex;
+    width:84%;
+    margin:auto;
+    padding:20px 0;
+    align-items:center;
+    justify-content:space-between;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:10px 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#0d0d0d;
+    font-weight:bold;
+}
+.down{
+    background: #736f6fc9;
+    padding:10px 18px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    display:inline-block;
+    margin:30px 0;
+    border-radius:5px;
+}
+img {
+    border-radius: 50%;
+    width:45%;
+    height:80%;
+    position:absolute;
+    bottom:0;
+    right:100px;
+  }
+.images img{
+    left:50%;
+    height:100%;
+    position:absolute;
+    bottom:0;
+    
+
+}
+.skill{
+    background-color: rgb(247, 232, 240);
+}
+Marquee{
+        font-size: 40px;
+        font-weight: 800;
+        color: #e64fb9;
+        font-family: serif;
+        
+}
+.s1{
+    font-size:20px;
+    font-family:cursive;
+    text-align: center;
+
+}
+.content{
+    width : 20%;
+    margin :85px;
+    box-sizing : border-box;
+    float:left;
+    text-align:center;
+    border-radius:20px;
+    cursor:pointer;
+    padding-top:10px;
+    box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background-color: rgb(212, 208, 211);
+  }
+  .content:hover{
+    box-shadow:0 3px 6px rgba(0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform:translate(0px,-8px);
+  }
+  .content1{
+    width : 20%;
+    margin :55px;
+    box-sizing : border-box;
+    float:left;
+    text-align:center;
+    border-radius:20px;
+    cursor:pointer;
+    padding-top:10px;
+    box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background-color: rgb(247, 232, 240);
+  }
+  .content1:hover{
+    box-shadow:0 3px 6px rgba(0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform:translate(0px,-8px);
+  }
+  .a1{
+    font-size:40px;
+    font-family:'Lucida Sans';
+    font
+
+  }
+  .content2{
+    width : 50%;
+    margin :65px;
+    box-sizing : border-box;
+    float:left;
+    text-align:center;
+    border-radius:20px;
+    cursor:pointer;
+    padding-top:10px;
+    box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background-color: rgb(247, 232, 240);
+  }
+  .content2:hover{
+    box-shadow:0 3px 6px rgba(0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform:translate(0px,-8px);
+  }
